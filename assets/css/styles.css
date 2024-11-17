@@ -1,0 +1,138 @@
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.sidebar {
+    flex: 0 0 25%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.user-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.user-status p {
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.icons {
+    display: flex;
+    gap: 6px;
+    color: gray; 
+    font-size: 12px; 
+    margin-top: 5px;
+}
+
+.user-status span {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+
+.new-chat-btn {
+    background-color: #a991d8;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+}
+
+.new-chat-btn:hover {
+    background-color: #8f7ab8;
+}
+
+
+.contacts {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.contact img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    font-weight: bold;
+    margin: 0;
+    font-size: 15px;
+}
+
+.contact-info span {
+    font-size: 13px; 
+    color: gray;
+}
+
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.networking-icon {
+    background-color: #c8b8f3;
+    padding: 50px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.networking-icon img {
+    width: 80px;
+    height: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    max-width: 300px;
+    line-height: 1.5;
+}
