@@ -22,7 +22,7 @@
     padding: 0.5rem 1rem;
     font-size: 1.2rem;
     color: white;
-    background-color: #007bff;
+    background-color: #021931;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -71,7 +71,7 @@
 
   .nav {
     grid-area: nav;
-    background: #4CAF50;
+    background: #217799;
     color: white;
     padding: 3rem;
     display: flex;
