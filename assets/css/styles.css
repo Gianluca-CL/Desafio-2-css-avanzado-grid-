@@ -94,8 +94,8 @@
   menu {
     width: 250px;
     height: 100vh;
-    background-color: #333;
-    position: fixed;
+    background-color: #636262;
+    position: static;
     top: 145px;
     left: 0;
     padding-top: 20px;
@@ -114,9 +114,21 @@ menu a {
 
 
 menu a:hover {
-    background-color: #575757;
+    background-color: #a19797;
 }
   
+.sidebar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.sidebar {
+  grid-area: sidebar;
+  background: #616161;
+  padding: 1rem;
+}
+
 .grid-container {
     grid-area: products;
     display: grid;
@@ -155,7 +167,7 @@ menu a:hover {
     color: white;
     background-color: #007bff;
     border: none;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
   }
@@ -167,7 +179,7 @@ menu a:hover {
 
   .footer {
     grid-area: footer;
-    background: #333;
+    background: #636262;
     color: white;
     text-align: center;
     padding: 1rem;
